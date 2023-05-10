@@ -1,23 +1,16 @@
 {
   "name": "angular-cropperjs-app",
-  "description": "CropperJS integration for Angular +16",
-  "version": "2.0.0",
+  "description": "CropperJS integration for Angular +6",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/matheusdavidson/angular-cropperjs"
   },
-  "authors":
-      {
-          "name": "Matheus Davidson",
-          "email": "matheusdavidson@gmail.com"
-      },
-    "maintainers": [
-        {
-            "name": "Abdelgawad",
-            "email": "scr2em@gmail.com"
-        }
-    ],
-    "keywords": [
+  "author": {
+    "name": "Matheus Davidson",
+    "email": "matheusdavidson@gmail.com"
+  },
+  "keywords": [
     "angular",
     "angular2",
     "angular4",
@@ -38,7 +31,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build --configuration production angular-cropperjs-app",
+    "build_lib": "ng build --configuration production angular-cropperjs",
     "npm_pack": "cd dist/angular-cropperjs && npm pack",
     "package": "npm run build_lib && npm run npm_pack"
   },
